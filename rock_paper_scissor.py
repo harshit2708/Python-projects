@@ -38,6 +38,9 @@ while(play == True):
         if(user_input == "S"):
             if(computer_input == "R"):
                 computer += 1
+	if(user_input == "Q"):
+            if(computer_input == "L"):
+                computer += 1
             elif(computer_input == "P"):
                 user += 1
         # print computer input
@@ -49,7 +52,7 @@ while(play == True):
     if(user == 5):
         print("Congratulations you win!!!!!!\n\n")
     else:
-        print("Better Luck next time\n\n")
+        print("Better Luck next time again\n\n")
 
     # Asking if he wants to play again
     if((input("Want to Play Again[Y/y or N/n]:  ")) in ["n", "N"]):
