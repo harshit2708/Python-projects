@@ -32,18 +32,13 @@ class UrlShort():
             
         print('------------ Your short URL was created!...............')
         
-        print('Your URL:',url)
+        print('Your original URL:',url)
         print('Shorten URL:',short_url)
         
         return short_url
         
         #print(self.data)
-    def check_URL(self,url):
-        if url in self.data:
-            print('\n................. Here is yours...................')
-            print('Your original url:',self.data[url.strip()])
-        else:
-            print('No url found..!')
+   
     
     def update_url(self,url):
         if url in self.data:
